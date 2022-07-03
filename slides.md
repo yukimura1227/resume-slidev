@@ -23,15 +23,7 @@ drawings:
 css: unocss
 ---
 
-# Welcome to Slidev
-
-Presentation slides for developers
-
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
-    Press Space for next page <carbon:arrow-right class="inline"/>
-  </span>
-</div>
+# 自己紹介・経歴紹介
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
@@ -49,27 +41,18 @@ The last comment block of each slide will be treated as slide notes. It will be 
 
 ---
 
-# What is Slidev?
+# Contents
 
-Slidev is a slides maker and presenter designed for developers, consist of the following features
-
-- 📝 **Text-based** - focus on the content with Markdown, and then style them later
-- 🎨 **Themable** - theme can be shared and used with npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embedding Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export into PDF, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - anything possible on a webpage
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
-
-<!--
-You can have `style` tag in markdown to override the style for the current page.
-Learn more: https://sli.dev/guide/syntax#embedded-styles
--->
+```text
+- 📝 self introduction
+- 🧙 Development Skills
+  - 🎨 プログラミング言語
+  - 🧑 サーバサイドフレームワーク
+  - 🤹 フロントエンドフレームワーク
+  - 🎥 テスティングライブラリ
+  - 🗜️ インフラ系
+- 📝 Achievement
+```
 
 <style>
 h1 {
@@ -85,6 +68,18 @@ h1 {
 
 ---
 
+# Contents
+
+```text {1}
+- 📝 自己紹介
+- 🎨 プログラミング言語
+- 🎥 テスティングライブラリ
+- 📤 etc
+- 🛠 etc
+```
+
+---
+
 # Navigation
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
@@ -95,8 +90,6 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
 | --- | --- |
 | <kbd>right</kbd> / <kbd>space</kbd>| next animation or slide |
 | <kbd>left</kbd>  / <kbd>shift</kbd><kbd>space</kbd> | previous animation or slide |
-| <kbd>up</kbd> | previous slide |
-| <kbd>down</kbd> | next slide |
 
 <!-- https://sli.dev/guide/animations.html#click-animations -->
 <img
