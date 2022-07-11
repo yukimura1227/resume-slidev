@@ -23,7 +23,7 @@ drawings:
 css: unocss
 ---
 
-# 自己紹介・経歴紹介
+# 自己紹介<br/>経歴紹介
 
 <div class="abs-br m-6 flex gap-2">
   <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl icon-btn opacity-50 !border-none !hover:text-white">
@@ -84,7 +84,13 @@ h1 {
 
 Hover on the bottom-left corner to see the navigation's controls panel, [learn more](https://sli.dev/guide/navigation.html)
 
-### Keyboard Shortcuts
+## Keyboard Shortcuts
+
+---
+layout: "image-right"
+image: "https://source.unsplash.com/collection/94734566/1920x1080"
+
+---
 
 |     |     |
 | --- | --- |
@@ -98,11 +104,6 @@ Hover on the bottom-left corner to see the navigation's controls panel, [learn m
   src="https://sli.dev/assets/arrow-bottom-left.svg"
 />
 <p v-after class="absolute bottom-23 left-45 opacity-30 transform -rotate-10">Here!</p>
-
----
-layout: image-right
-image: https://source.unsplash.com/collection/94734566/1920x1080
----
 
 # Code
 
@@ -128,15 +129,9 @@ function updateUser(id: number, update: User) {
 [^1]: [Learn More](https://sli.dev/guide/syntax.html#line-highlighting)
 
 <style>
-.footnotes-sep {
-  @apply mt-20 opacity-10;
-}
-.footnotes {
-  @apply text-sm opacity-75;
-}
-.footnote-backref {
-  display: none;
-}
+.footnotes-sep { @apply mt-20 opacity-10; }
+.footnotes { @apply text-sm opacity-75; }
+.footnote-backref { display: none; }
 </style>
 
 ---
@@ -148,7 +143,8 @@ function updateUser(id: number, update: User) {
 
 You can use Vue components directly inside your slides.
 
-We have provided a few built-in components like `<Tweet/>` and `<Youtube/>` that you can use directly. And adding your custom components is also super easy.
+We have provided a few built-in components like `<Tweet/>` and `<Youtube/>`  that
+you can use directly. And adding your custom components is also super easy.
 
 ```html
 <Counter :count="10" />
@@ -178,7 +174,9 @@ class: px-20
 
 # Themes
 
-Slidev comes with powerful theming support. Themes can provide styles, layouts, components, or even configurations for tools. Switching between themes by just **one edit** in your frontmatter:
+Slidev comes with powerful theming support. Themes can provide styles, layouts,
+components, or even configurations for tools. Switching between themes by just
+ **one edit** in your frontmatter:
 
 <div grid="~ cols-2 gap-2" m="-t-2">
 
@@ -205,6 +203,7 @@ check out the [Awesome Themes Gallery](https://sli.dev/themes/gallery.html).
 
 ---
 preload: false
+
 ---
 
 # Animations
@@ -367,12 +366,14 @@ database "MySql" {
 
 [Learn More](https://sli.dev/guide/syntax.html#diagrams)
 
-
 ---
 layout: center
 class: text-center
+
 ---
 
 # Learn More
 
-[Documentations](https://sli.dev) · [GitHub](https://github.com/slidevjs/slidev) · [Showcases](https://sli.dev/showcases.html)
+[Documentations](https://sli.dev)
+ · [GitHub](https://github.com/slidevjs/slidev)
+ · [Showcases](https://sli.dev/showcases.html)
