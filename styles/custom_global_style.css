@@ -1,0 +1,11 @@
+/* slide全体でglobalに使うstyleはここに定義する */
+.slidev-layout > h1 {
+  background-color: #2B90B6;
+  background-image: linear-gradient(45deg, #6b46c1 10%, #9F7AEA 20%);
+  background-size: 100%;
+  background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
